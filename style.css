@@ -1,0 +1,196 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1{
+    font-size: 48px;
+}
+
+.whole{
+    width:100%;
+    height:100%;
+}
+
+.intro_bg{
+    background-image:url("images/intro.png");
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+}
+
+.nav > li{
+    padding-right: 130px;
+}
+
+.nav > li > a {
+    color: white;
+}
+
+.intro_text{
+    width: 100%;
+    height: 300px;
+    margin: 100px auto 231px auto;
+    padding-top: 25px;
+    text-align: center;
+    background-color: black;
+    background: rgba(0,0,0,0.5);
+}
+
+.intro_text > h1{
+    color: white;
+    padding-top: 40px;
+}
+
+
+.introduction{
+    width: 100%;
+    height: 1200px;
+    background-image: url("images/brownBg.jpg");
+}
+
+.introduction > h1 {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-weight: bolder;
+}
+
+.contents{
+    width: 100%;
+    height: 320px;
+    display: flex;
+}
+
+.kimImage{
+    width: 400px;
+    height: 320px;
+    background-image: url("images/kimPhoto.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro{
+    width: 100%;
+    height: 290px;
+    background-color: rgb(197, 255, 254);
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.intro > h3{
+    padding-top: 50px;
+    line-height: 30px;
+    font-size: 100%;
+}
+
+.objectives{
+    width: 100%;
+    height: 60%;
+    background-image: url("images/objec.jpg");
+    background-size: 100% 100%; 
+}
+
+.contactPage{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(238, 235, 202);
+}
+
+.insta{
+    position: absolute;
+    right: 0%;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.info{
+    padding-left: 25px;
+    padding-top: 8px;
+    line-height: 30px;
+}
+
+
+.introMiddle{
+    color: sienna;
+    font-weight: bolder;
+}
+
+.materials {
+    width: 100%;
+    height: 800px;
+    background-image: url("images/brownBg.jpg");
+}
+
+.mateimg {
+    width: 100%;
+    height: 100%;
+    background-image: url("images/materials.jpg");
+    background-size: 100% 100%;
+}
+
+.howto{
+    width: 100%;
+    height: 800px;
+    background-image: url("images/brownBg.jpg");
+}
+
+.howto1{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/howto1.jpg");
+    background-size: 100% 100%; 
+}
+
+.howto2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("images/howto2.jpg");
+    background-size: 100% 100%; 
+}
+
+.howto3 {
+    width: 100%;
+    height: 100%;
+    background-image: url("images/howto3.jpg");
+    background-size: 100% 100%; 
+}
+
+.howto4 {
+    width: 100%;
+    height: 100%;
+    background-image: url("images/howto4.jpg");
+    background-size: 100% 100%;  
+}
+.mateimg2 {
+    width: 100%;
+    height: 60%;
+    background-image: url("images/mateimg2.jpg");
+    background-size: 100% 100%; 
+}
+
+
